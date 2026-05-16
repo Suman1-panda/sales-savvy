@@ -21,7 +21,6 @@ It provides REST APIs to perform basic operations like creating, viewing, and de
 ---
 
 ## 🏗️ Project Structure
-
 sales-savvy/
 │
 ├── .mvn/
@@ -29,14 +28,21 @@ sales-savvy/
 │
 ├── src/
 │   ├── main/
-│   │   ├── java/com/salessavvy/sales_savvy/
-│   │   │   ├── ApiTester.java
-│   │   │   └── SalesSavvyApplication.java
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── salessavvy/
+│   │   │           └── sales_savvy/
+│   │   │               ├── ApiTester.java
+│   │   │               └── SalesSavvyApplication.java
 │   │   │
 │   │   └── resources/
 │   │       └── application.properties
 │   │
-│   └── test/java/com/salessavvy/sales_savvy/
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── salessavvy/
+│                   └── sales_savvy/
 │
 ├── .gitattributes
 ├── .gitignore
